@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.background-img {
+body .background-img {
     background-image: url("assets/backgroundImg.jpeg");
     height: 44.5em;
 }
