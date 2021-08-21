@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TalkingTomComponent implements OnInit {
 
+  former_text: String = 'Hi, How are you ?';
+  latter_text: String = "Hey, I'm good!";
+
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(function(){  }, 3000);
   }
 
 }
